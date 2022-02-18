@@ -74,3 +74,25 @@ background-image:url(../imgs/apache.png);
 	top: 464px;
 	background-image:url(../imgs/amigo.png);
 }
+
+.anima1 {
+	animation: play .5s steps(2) infinite;
+}
+
+@keyframes play {
+    from {background-position: 0px;}
+    to {background-position: -512px;}
+}
+
+.anima2 {
+	animation: play .5s steps(2) infinite;
+}
+
+.anima3 {
+	animation:play2 .9s steps(12) infinite;
+}
+
+@keyframes play2 {
+	from {background-position:0px;}
+	to {background-position:-528px;}
+}
